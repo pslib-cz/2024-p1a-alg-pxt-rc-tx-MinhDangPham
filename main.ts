@@ -1,8 +1,8 @@
 radio.setGroup(1);
 
 basic.forever(function () {
-    let x = input.acceleration(Dimension.X); //left,right
-    let y = input.acceleration(Dimension.Y); //forward,backwards
+    let x = input.acceleration(Dimension.X);
+    let y = input.acceleration(Dimension.Y);
     radio.sendValue("x", x);
     radio.sendValue("y", y);
 
