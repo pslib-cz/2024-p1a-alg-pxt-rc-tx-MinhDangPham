@@ -1,4 +1,5 @@
 radio.setGroup(56)
+radio.setTransmitPower(7)
 
 basic.forever(function () {
     let x = input.acceleration(Dimension.X)
